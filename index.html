@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cbot11</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Twemoji -->
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Codystar:wght@300;400&family=Nabla&family=Noto+Color+Emoji&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: "#da373d",
+                    },
+                },
+            },
+        };
+    </script>
+
+    <!-- Twemoji Parser -->
+    <script>
+        window.onload = function () {
+            // Parses the document body and inserts <img> tags in place of Unicode Emojis
+            twemoji.parse(document.body, { folder: 'svg', ext: '.svg' });
+        }
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Codystar:wght@300;400&family=Nabla&family=Noto+Color+Emoji&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+        h1 {
+            font-family: 'Unbounded', cursive;
+            font-weight: 900;
+        }
+
+        .bold {
+            font-family: 'Unbounded', cursive;
+            font-weight: 900;
+            color: #333;
+            font-size: 100px;
+        }
+
+        h2 {
+            font-family: 'Unbounded', cursive;
+            font-weight: 400;
+        }
+
+        .right {
+            float: right;
+        }
+
+        body {
+            font-family: 'Unbounded', cursive;
+            font-weight: 900;
+            background-color: #3D4849;
+        }
+
+        .centered {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .red {
+            color: red;
+        }
+
+        img.emoji {
+            width: 1.5em;
+            pointer-events: none;
+            display: inline;
+        }
+
+        html {
+            height: 100%;
+            width: 100%;
+            cursor: url('cursor2.png'), auto;
+        }
+
+        footer {
+            text: 15px;
+        }
+
+        a {
+            cursor: url('cursor2.png'), auto;
+        }
+    </style>
+</head>
+
+<body class="centered">
+    <span class="cbot">🇨 🇧 🇴 🇹 1️⃣ 1️⃣</span><br>
+    <h3></h3><span style="color: magenta;">(</span><span style="color:purple">⌐</span><span
+        style=color:red>ヽ■</span><span style="color:orange">_</span><span style="color:yellow">■</span><span
+        style="color:lightblue">)</span><span style="color: cyan">ノ</span><span style="color:blue">♬</span><br>
+</body>
+<footer>
+    <span>Powered by:</span> <a href="https://twemoji.twitter.com">Twemoji</a><span>,</span><a
+        href="https://tailwindcss.com" cursor:url('cursor2.png'), auto;> Tailwind CSS</a>
+</footer>
+
+</html>
